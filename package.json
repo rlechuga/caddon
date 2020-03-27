@@ -1,0 +1,30 @@
+{
+  "name": "caddon",
+  "version": "1.0.0",
+  "description": "C++ Addon For Node Js",
+  "gypfile": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlechuga/caddon.git"
+  },
+  "keywords": [
+    "caddon"
+  ],
+  "author": "rlechuga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlechuga/caddon/issues"
+  },
+  "homepage": "https://github.com/rlechuga/caddon#readme",
+  "devDependencies": {
+    "node-gyp": "^6.1.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^2.0.0"
+  }
+}
