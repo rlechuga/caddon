@@ -6,7 +6,6 @@ double mathlech::squareRoot(int num, int precision)
 {
   int start = 0, end = num;
   int mid;
-
   double ans = 0.0;
 
   while (start <= end)

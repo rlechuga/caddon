@@ -11,4 +11,3 @@ console.log('Testing class initial value for derived instance');
 console.log(newFromExisting.getValue());
 
 module.exports = mathAddon;
-/* the most imporant work */
